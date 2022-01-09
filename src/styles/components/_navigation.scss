@@ -1,0 +1,20 @@
+.logo { 
+    width: 150px;
+    max-height: fit-content;
+}
+#offcanvasNavbarLabel { 
+    color: $green;
+}
+#navbar-toggler { 
+    background-color:  $blue;
+}
+.navLink {
+    color:  $blue;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+}
+.navLink:hover {
+    color:  $green;
+}
