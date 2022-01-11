@@ -9,7 +9,7 @@
   color: $blue;
 }
 .imgHomePage1 {
-  width: 400px;
+  width: 550px;
   max-height: fit-content;
   }
 .underlined {
@@ -60,7 +60,38 @@
 }
 .texte_centrer {
   position: absolute;
-  top: 45%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+.contenantSchool {
+  position: relative;
+  text-align: center;
+  
+}
+.texte_centrerSchool {
+  position: absolute;
+  display: flex;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.bgFavela { 
+  opacity: 0.4;
+  width:100%;
+  height: 400px;
+}
+.FWSTitle {
+  font-size: 60px;
+  font-family: 'Times New Roman';
+  width:100%;
+}
+.contentFws {
+  position: relative;
+  top: -400px;
+}
+.cardContact {
+  margin: 30px;
+  border-width: solid 2px;
+  border-color: chocolate ;
 }

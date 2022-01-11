@@ -1,0 +1,23 @@
+.carousel-container {
+    height: 250px;
+    width: 100%;
+    touch-action: pan-y;
+    background-color: #092130;
+    overflow: hidden;
+  }
+  
+  .carousel-track {
+    display: flex;
+    height: 100%;
+  }
+  
+  .carousel-card {
+    min-width: 300px;
+    height: 100%;
+    background-color: rgb(219, 223, 219);
+    margin-left: 10px;
+  }
+.btnCarroussel {
+    cursor:pointer;
+    height: 80px;
+  }
