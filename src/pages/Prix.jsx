@@ -3,10 +3,12 @@ import Navigation from '../components/Navigation';
 
 const Prix = () => {
     return (
-        <div className= "pages">
+        <>
             <Navigation/>
-            <h1>Prix</h1>
-        </div>
+            <div className="page">
+                <h1>Prix</h1> 
+            </div>
+        </>
     );
 };
 

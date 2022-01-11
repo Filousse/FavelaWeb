@@ -9,7 +9,7 @@ const Navigation = () => {
         <NavLink exact to = "/">
             <img src="./img/logo.png" className="logo" alt="logo" />
         </NavLink>
-        <Navbar.Toggle id="navbar-toggler" aria-controls="offcanvasNavbar" />
+        <Navbar.Toggle aria-controls="offcanvasNavbar" />
         <Navbar.Offcanvas
         id="offcanvasNavbar"
         aria-labelledby="offcanvasNavbarLabel"
@@ -27,13 +27,10 @@ const Navigation = () => {
                         Services
                     </NavLink>
                     <NavLink exact to = "/price"  className="navLink" >
-                        Prix
+                        Prix &amp; devis
                     </NavLink>
                     <NavLink exact to = "/favela-web-school" className="navLink" >
                         Favela Web School
-                    </NavLink>
-                    <NavLink exact to = "/quote"  className="navLink" >
-                        Devis
                     </NavLink>
                     <NavLink exact to = "/contact"  className="navLink" >
                         Contact

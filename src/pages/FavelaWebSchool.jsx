@@ -3,10 +3,12 @@ import Navigation from '../components/Navigation';
 
 const FavelaWebSchool = () => {
     return (
-        <div className= "pages">
-            <Navigation/>
-            <h1>FavelaWebSchool</h1>
-</div>
+    <>
+        <Navigation/>
+        <div className="page">
+            <h1>Favela web school</h1> 
+        </div>
+    </>
     );
 };
 

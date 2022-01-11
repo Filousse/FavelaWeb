@@ -4,9 +4,11 @@ import Navigation from '../components/Navigation';
 const Devis = () => {
     return (
         <>
-            <Navigation/>
-            <h1>Devis</h1>
-        </>
+        <Navigation/>
+        <div className="page">
+            <h1>Devis</h1> 
+        </div>
+    </>
     );
 };
 

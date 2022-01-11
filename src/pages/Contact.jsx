@@ -4,9 +4,11 @@ import Navigation from '../components/Navigation';
 const Contact = () => {
     return (
         <>
-              <Navigation/>
-            <h1>Contact</h1>
-        </>
+            <Navigation/>
+            <div className="page">
+                <h1>Contact</h1> 
+            </div>
+       </>
     );
 };
 

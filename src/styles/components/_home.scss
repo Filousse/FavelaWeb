@@ -1,4 +1,66 @@
 .page {
-    padding-top: 140px;
+    padding: 140px 20px 20px 40px;
     background-color: #f3f5f8;
   }
+.greenText {
+  color: $green;
+}
+.blueText {
+  color: $blue;
+}
+.imgHomePage1 {
+  width: 400px;
+  max-height: fit-content;
+  }
+.underlined {
+  position: relative;
+  margin-right: 1rem;
+}
+.underlined:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  height: 7px;
+  width: 100%;
+  border: solid 2px $blue;
+  border-color: $blue transparent transparent transparent;
+  border-radius: 50%;
+}
+.underlinedSmall {
+  position: relative;
+  margin-right: 1rem;
+}
+.underlinedSmall:after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 40%;
+  height: 7px;
+  width: 20%;
+  border: solid 2px $blue;
+  border-color: $blue transparent transparent transparent;
+  border-radius: 50%;
+}
+.icon {
+  width: 40px;
+  max-height: fit-content;
+}
+.bgjungle {
+  width:100%;
+  overflow: hidden;
+}
+.bgDark {
+  background-color: #092130;
+}
+.contenant {
+  position: relative;
+  text-align: center;
+  color: $green;
+}
+.texte_centrer {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
